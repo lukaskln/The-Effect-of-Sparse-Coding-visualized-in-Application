@@ -9,6 +9,11 @@ library(tidyverse)
 # Change WD respectivly:
 # setwd("...")
 
+### For training of the algorithms change to training dataset! 
+### Right now training and testing is done on the same picture since training dataset can not be provided in this repository.
+
+### Hyperparameters are not fix and can be played around with. Examples of different results can be found in the "Graphics" folder.
+
 ####### Creating separated matrix for every RGB color channel #######
 
 photo <- readJPEG("University.jpg")
